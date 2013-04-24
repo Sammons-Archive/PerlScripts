@@ -1,3 +1,5 @@
+#this program will ask for a string and something t replace it with.
+
 my $filename;
 my $found;
 my $replaced;

@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-
+#this program is a template for connecting to a db and generating a table
 use DBI; 
 print "content-type:text/html\n\n";
 $db = DBI->connect('dbi:mysql:db:ip:port','id','pass') or die("Couldn't connect");
